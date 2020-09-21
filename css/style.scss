@@ -116,6 +116,7 @@ p {
     }
 
     &:hover {
+        filter: brightness(115%);
         .icon {
             transform: translateX(10px);
             transition-duration: 150ms;

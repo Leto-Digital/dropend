@@ -119,6 +119,11 @@ p b {
   width: 30px;
 }
 
+.service-block:hover {
+  -webkit-filter: brightness(115%);
+          filter: brightness(115%);
+}
+
 .service-block:hover .icon {
   -webkit-transform: translateX(10px);
           transform: translateX(10px);
