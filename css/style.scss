@@ -1,0 +1,133 @@
+h2:not(.no-border),
+h3:not(.no-border) {
+    margin-bottom: 45px;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: -13px;
+        width: 10%;
+        min-width: 20px;
+        height: 6px;
+        background: #3639A1;
+    }
+}
+
+p {
+
+    strong,
+    b {
+        color: #3639A1;
+    }
+}
+
+/* NAVIGATION*/
+#main-header {
+    border-bottom: #3639A1 2px solid;
+}
+
+@media screen and (min-width: 981px) {
+
+    .et_header_style_left #et-top-navigation nav>ul>li>a,
+    .et_header_style_split #et-top-navigation nav>ul>li>a {
+        padding-bottom: 30px;
+    }
+}
+
+.et_pb_gutters3 .footer-widget {
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+
+/* FORMS*/
+/*add labels above the form input fields*/
+.et_pb_contact_form label.et_pb_contact_form_label {
+    display: block !important;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.footer-form {
+    .et_pb_contact_form label.et_pb_contact_form_label {
+        color: white;
+    }
+}
+
+.hero-form,
+.footer-form {
+    .et_contact_bottom_container {
+        width: 100%;
+        margin-top: 0;
+
+        .et_pb_contact_submit.et_pb_button {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero-form {
+        .et_contact_bottom_container {
+            width: 50%;
+            margin-top: 30px;
+        }
+    }
+
+}
+
+
+// delete
+* {
+    box-sizing: border-box;
+}
+.container {
+    height: 250px;
+}
+
+/*CUSTOM COMPONENTS*/
+// BLOCKS
+.service-block {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: #262986;
+    color: #ffffff;
+    padding: 35px;
+    min-height: 200px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+
+    @media screen and (min-width: 300px) {
+        & {
+            flex-flow: row nowrap;
+        }
+    }
+
+    .content {
+        text-align: left;
+        padding:  0 10px 10px 0;
+        font-weight: bold;
+    }
+
+    .icon {
+        padding:  0 0 10px;
+        transition: transform 200ms ease-in-out;
+    }
+
+    &:hover {
+        filter: brightness(110%);
+
+        .icon {
+            transform: translateX(10px);
+            transition-duration: 150ms;
+        }
+    }
+}
