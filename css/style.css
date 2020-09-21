@@ -84,7 +84,6 @@ p b {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: #262986;
   color: #ffffff;
   padding: 35px;
   min-height: 200px;
@@ -116,11 +115,6 @@ p b {
   transition: -webkit-transform 200ms ease-in-out;
   transition: transform 200ms ease-in-out;
   transition: transform 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
-}
-
-.service-block:hover {
-  -webkit-filter: brightness(110%);
-          filter: brightness(110%);
 }
 
 .service-block:hover .icon {
