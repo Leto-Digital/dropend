@@ -101,7 +101,7 @@ p b {
   }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 981px) {
   #footer-widgets .footer-widget:nth-child(2) {
     display: -webkit-box;
     display: -ms-flexbox;
