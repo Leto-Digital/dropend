@@ -56,6 +56,20 @@ p {
     color: #ffffff !important;
 }
 
+.nav-menu-btn {
+    padding: 8px 10px !important;
+    background: #ffffff;
+    color: #262986 !important;
+
+    &:hover {
+    background: #262986 !important;
+    color: #ffffff !important;
+    }
+    &::after {
+        content: "" !important;
+    }
+}
+
 #main-header {
     border-bottom: #3639A1 2px solid;
 }
@@ -98,6 +112,7 @@ p {
 
         }
     }
+
     @media screen and (min-width: 981px) {
         & {
             .footer-widget {
@@ -108,7 +123,7 @@ p {
                 }
             }
         }
-     }
+    }
 }
 
 
