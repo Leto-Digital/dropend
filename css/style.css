@@ -109,6 +109,12 @@ p b {
   }
 }
 
+@media screen and (max-width: 980px) {
+  .service-block {
+    min-height: 125px;
+  }
+}
+
 .service-block .content {
   text-align: left;
   padding: 0 10px 10px 0;

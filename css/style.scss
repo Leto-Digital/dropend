@@ -108,6 +108,12 @@ p {
         }
     }
 
+    @media screen and (max-width: 980px) {
+        & {
+            min-height: 125px;
+        }
+    }
+
     .content {
         text-align: left;
         padding:  0 10px 10px 0;
