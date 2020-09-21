@@ -82,117 +82,129 @@ p {
         }
     }
 
-        @media screen and (max-width: 767px) {
-            & {
-                padding: 5% 0;
+    @media screen and (max-width: 767px) {
+        & {
+            padding: 5% 0;
 
-                .footer-widget {
-                    display: flex;
-                    justify-content: center;
-                    flex-flow: row wrap;
-                    &:nth-child(n) {
-                        margin-bottom: 3.5% !important;
-                    }
+            .footer-widget {
+                display: flex;
+                justify-content: center;
+                flex-flow: row wrap;
+
+                &:nth-child(n) {
+                    margin-bottom: 3.5% !important;
                 }
-
             }
+
         }
     }
+    @media screen and (min-width: 767px) {
+        & {
+            .footer-widget {
+                &:nth-child(2) {
+                    display: flex;
+                    justify-content: end;
+                    transform: translateX(17px);
+                }
+            }
+        }
+     }
+}
 
 
-    /* FORMS*/
-    /*add labels above the form input fields*/
+/* FORMS*/
+/*add labels above the form input fields*/
+.et_pb_contact_form label.et_pb_contact_form_label {
+    display: block !important;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.footer-form {
     .et_pb_contact_form label.et_pb_contact_form_label {
-        display: block !important;
-        font-weight: bold;
-        margin-bottom: 10px;
-
+        color: white;
     }
+}
 
-    .footer-form {
-        .et_pb_contact_form label.et_pb_contact_form_label {
-            color: white;
-        }
-    }
-
-    .hero-form,
-    .footer-form {
-        .et_contact_bottom_container {
-            width: 100%;
-            margin-top: 0;
-
-            .et_pb_contact_submit.et_pb_button {
-                width: 100%;
-            }
-        }
-    }
-
-    @media screen and (min-width: 768px) {
-        .hero-form {
-            .et_contact_bottom_container {
-                width: 50%;
-                margin-top: 30px;
-            }
-        }
-
-    }
-
-    @media screen and (max-width: 400px) {
-        .footer-form {
-            padding: 0;
-        }
-    }
-
-
-    /*CUSTOM COMPONENTS*/
-    // BLOCKS
-    .service-block {
-        height: 100%;
+.hero-form,
+.footer-form {
+    .et_contact_bottom_container {
         width: 100%;
-        display: flex;
-        flex-flow: row wrap;
-        align-items: flex-end;
-        justify-content: space-between;
-        color: #ffffff;
-        padding: 35px;
-        min-height: 200px;
-        box-sizing: border-box;
-        border-radius: 15px;
-        cursor: pointer;
-        position: relative;
+        margin-top: 0;
 
-        @media screen and (min-width: 300px) {
-            & {
-                flex-flow: row nowrap;
-            }
+        .et_pb_contact_submit.et_pb_button {
+            width: 100%;
         }
+    }
+}
 
-        @media screen and (max-width: 980px) {
-            & {
-                min-height: 125px;
-            }
+@media screen and (min-width: 768px) {
+    .hero-form {
+        .et_contact_bottom_container {
+            width: 50%;
+            margin-top: 30px;
         }
+    }
 
-        .content {
-            text-align: left;
-            padding: 0 10px 10px 0;
-            font-weight: bold;
-            word-break: break-all;
+}
+
+@media screen and (max-width: 400px) {
+    .footer-form {
+        padding: 0;
+    }
+}
+
+
+/*CUSTOM COMPONENTS*/
+// BLOCKS
+.service-block {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: #ffffff;
+    padding: 35px;
+    min-height: 200px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+
+    @media screen and (min-width: 300px) {
+        & {
+            flex-flow: row nowrap;
         }
+    }
+
+    @media screen and (max-width: 980px) {
+        & {
+            min-height: 125px;
+        }
+    }
+
+    .content {
+        text-align: left;
+        padding: 0 10px 10px 0;
+        font-weight: bold;
+        word-break: break-all;
+    }
+
+    .icon {
+        margin: 0 0 10px;
+        transition: transform 200ms ease-in-out;
+        height: 30px;
+        width: 30px;
+    }
+
+    &:hover {
+        filter: brightness(115%);
 
         .icon {
-            margin: 0 0 10px;
-            transition: transform 200ms ease-in-out;
-            height: 30px;
-            width: 30px;
-        }
-
-        &:hover {
-            filter: brightness(115%);
-
-            .icon {
-                transform: translateX(10px);
-                transition-duration: 150ms;
-            }
+            transform: translateX(10px);
+            transition-duration: 150ms;
         }
     }
+}

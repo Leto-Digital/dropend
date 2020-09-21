@@ -101,6 +101,19 @@ p b {
   }
 }
 
+@media screen and (min-width: 767px) {
+  #footer-widgets .footer-widget:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-transform: translateX(17px);
+            transform: translateX(17px);
+  }
+}
+
 /* FORMS*/
 /*add labels above the form input fields*/
 .et_pb_contact_form label.et_pb_contact_form_label {
