@@ -17,10 +17,8 @@ function structureServicesBlocks() {
     iconHTML.src = 'http://www.dropend.co.za/wp-content/uploads/2020/09/service-block-icon.png';
     iconHTML.className = 'icon';
 
-    console.log(iconHTML);
-
-    for (var n = 0; n < serviceBlocks.length; n++) {
-        serviceBlocks[n].appendChild(iconHTML);
-    }
+    serviceBlocks.forEach(serviceBlock => {
+        serviceBlock.appendChild(iconHTML.cloneNode(true));
+    });
 
 }

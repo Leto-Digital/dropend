@@ -78,6 +78,12 @@ p {
 
 }
 
+@media screen and (max-width: 400px) {
+    .footer-form {
+        padding: 0;
+    }
+}
+
 
 /*CUSTOM COMPONENTS*/
 // BLOCKS
