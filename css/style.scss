@@ -111,6 +111,8 @@ p {
     .icon {
         padding:  0 0 10px;
         transition: transform 200ms ease-in-out;
+        height: 30px;
+        width: 30px;
     }
 
     &:hover {
