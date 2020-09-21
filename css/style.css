@@ -96,7 +96,7 @@ p b {
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
   }
-  #footer-widgets .footer-widget:nth-child(n) {
+  #footer-widgets .footer-widget:nth-child(2) {
     margin-bottom: 3.5% !important;
   }
 }
