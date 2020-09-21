@@ -15,7 +15,6 @@ h3:not(.no-border) {
 }
 
 p {
-
     strong,
     b {
         color: #3639A1;
@@ -143,6 +142,8 @@ p {
 
 }
 
+
+
 .footer-form {
     .et_pb_contact_form label.et_pb_contact_form_label {
         color: white;
@@ -150,7 +151,8 @@ p {
 }
 
 .hero-form,
-.footer-form {
+.footer-form,
+.normal-form {
     .et_contact_bottom_container {
         width: 100%;
         margin-top: 0;
@@ -211,7 +213,12 @@ p {
         text-align: left;
         padding: 0 10px 10px 0;
         font-weight: bold;
-        word-break: break-all;
+        
+        @media screen and (max-width: 250px) {
+            & {
+                word-break: break-all;
+            }
+        }
     }
 
     .icon {

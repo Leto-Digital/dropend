@@ -150,13 +150,15 @@ p b {
 }
 
 .hero-form .et_contact_bottom_container,
-.footer-form .et_contact_bottom_container {
+.footer-form .et_contact_bottom_container,
+.normal-form .et_contact_bottom_container {
   width: 100%;
   margin-top: 0;
 }
 
 .hero-form .et_contact_bottom_container .et_pb_contact_submit.et_pb_button,
-.footer-form .et_contact_bottom_container .et_pb_contact_submit.et_pb_button {
+.footer-form .et_contact_bottom_container .et_pb_contact_submit.et_pb_button,
+.normal-form .et_contact_bottom_container .et_pb_contact_submit.et_pb_button {
   width: 100%;
 }
 
@@ -219,7 +221,12 @@ p b {
   text-align: left;
   padding: 0 10px 10px 0;
   font-weight: bold;
-  word-break: break-all;
+}
+
+@media screen and (max-width: 250px) {
+  .service-block .content {
+    word-break: break-all;
+  }
 }
 
 .service-block .icon {
