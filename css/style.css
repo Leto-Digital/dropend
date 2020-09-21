@@ -107,10 +107,11 @@ p b {
   text-align: left;
   padding: 0 10px 10px 0;
   font-weight: bold;
+  word-break: break-all;
 }
 
 .service-block .icon {
-  padding: 0 0 10px;
+  margin: 0 0 10px;
   -webkit-transition: -webkit-transform 200ms ease-in-out;
   transition: -webkit-transform 200ms ease-in-out;
   transition: transform 200ms ease-in-out;
