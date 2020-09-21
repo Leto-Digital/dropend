@@ -69,6 +69,14 @@ p b {
   content: "" !important;
 }
 
+.et-fixed-header #top-menu li.current-menu-ancestor > a, .et-fixed-header #top-menu li.current-menu-item > a.nav-menu-btn {
+  color: #262986 !important;
+}
+
+.et-fixed-header #top-menu li.current-menu-ancestor > a:hover, .et-fixed-header #top-menu li.current-menu-item > a.nav-menu-btn:hover {
+  color: #ffffff !important;
+}
+
 #main-header {
   border-bottom: #3639A1 2px solid;
 }

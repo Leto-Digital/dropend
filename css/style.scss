@@ -70,6 +70,13 @@ p {
     }
 }
 
+.et-fixed-header #top-menu li.current-menu-ancestor > a, .et-fixed-header #top-menu li.current-menu-item > a.nav-menu-btn {
+    color: #262986 !important; 
+    &:hover {
+        color: #ffffff !important;
+    }
+}
+
 #main-header {
     border-bottom: #3639A1 2px solid;
 }
