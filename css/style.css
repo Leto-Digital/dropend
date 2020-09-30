@@ -54,29 +54,6 @@ p b {
   color: #ffffff !important;
 }
 
-.nav-menu-btn {
-  padding: 8px 10px !important;
-  background: #ffffff !important;
-  color: #262986 !important;
-}
-
-.nav-menu-btn:hover {
-  background: #262986 !important;
-  color: #ffffff !important;
-}
-
-.nav-menu-btn::after {
-  content: "" !important;
-}
-
-.et-fixed-header #top-menu li.current-menu-ancestor > a, .et-fixed-header #top-menu li.current-menu-item > a.nav-menu-btn {
-  color: #262986 !important;
-}
-
-.et-fixed-header #top-menu li.current-menu-ancestor > a:hover, .et-fixed-header #top-menu li.current-menu-item > a.nav-menu-btn:hover {
-  color: #ffffff !important;
-}
-
 #main-header {
   border-bottom: #3639A1 2px solid;
 }
@@ -160,6 +137,12 @@ p b {
 .footer-form .et_contact_bottom_container .et_pb_contact_submit.et_pb_button,
 .normal-form .et_contact_bottom_container .et_pb_contact_submit.et_pb_button {
   width: 100%;
+  margin: 0 0 0 8px;
+}
+
+.hero-form .et-pb-contact-message,
+.footer-form .et-pb-contact-message {
+  color: #ffffff;
 }
 
 @media screen and (min-width: 768px) {

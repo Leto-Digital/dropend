@@ -55,27 +55,6 @@ p {
     color: #ffffff !important;
 }
 
-.nav-menu-btn {
-    padding: 8px 10px !important;
-    background: #ffffff !important;
-    color: #262986 !important;
-
-    &:hover {
-    background: #262986 !important;
-    color: #ffffff !important;
-    }
-    &::after {
-        content: "" !important;
-    }
-}
-
-.et-fixed-header #top-menu li.current-menu-ancestor > a, .et-fixed-header #top-menu li.current-menu-item > a.nav-menu-btn {
-    color: #262986 !important; 
-    &:hover {
-        color: #ffffff !important;
-    }
-}
-
 #main-header {
     border-bottom: #3639A1 2px solid;
 }
@@ -159,9 +138,18 @@ p {
 
         .et_pb_contact_submit.et_pb_button {
             width: 100%;
+            margin: 0 0 0 8px;
         }
     }
 }
+
+.hero-form,
+.footer-form {
+    .et-pb-contact-message{
+        color: #ffffff;
+    }
+}
+
 
 @media screen and (min-width: 768px) {
     .hero-form {
