@@ -18,6 +18,9 @@ p {
     strong,
     b {
         color: #3639A1;
+        &.dark {
+            color: #ffffff;
+        }
     }
 }
 
@@ -143,7 +146,6 @@ p {
     }
 }
 
-.hero-form,
 .footer-form {
     .et-pb-contact-message > *{
         color: #ffffff !important;

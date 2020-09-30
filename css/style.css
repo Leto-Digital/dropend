@@ -20,6 +20,11 @@ p b {
   color: #3639A1;
 }
 
+p strong.dark,
+p b.dark {
+  color: #ffffff;
+}
+
 /* NAVIGATION*/
 #et_search_icon:hover,
 .mobile_menu_bar::before,
@@ -140,7 +145,6 @@ p b {
   margin: 0 0 0 8px;
 }
 
-.hero-form .et-pb-contact-message > *,
 .footer-form .et-pb-contact-message > * {
   color: #ffffff !important;
 }
