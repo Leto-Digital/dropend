@@ -25,6 +25,10 @@ p b.dark {
   color: #ffffff;
 }
 
+.dark p strong, .dark p b {
+  color: #ffffff;
+}
+
 /* NAVIGATION*/
 #et_search_icon:hover,
 .mobile_menu_bar::before,
