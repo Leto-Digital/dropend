@@ -151,7 +151,6 @@ p {
     .et_contact_bottom_container {
         width: 100%;
         margin-top: 0;
-        padding-left: 2%;
 
         .et_pb_contact_submit.et_pb_button {
             width: 100%;
@@ -159,6 +158,13 @@ p {
         }
     }
 }
+
+.hero-form {
+    .et_contact_bottom_container {
+        padding-left: 2%;
+    }
+}
+
 
 .footer-form {
     .et-pb-contact-message > *{
