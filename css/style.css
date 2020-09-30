@@ -140,9 +140,9 @@ p b {
   margin: 0 0 0 8px;
 }
 
-.hero-form .et-pb-contact-message,
-.footer-form .et-pb-contact-message {
-  color: #ffffff;
+.hero-form .et-pb-contact-message > *,
+.footer-form .et-pb-contact-message > * {
+  color: #ffffff !important;
 }
 
 @media screen and (min-width: 768px) {

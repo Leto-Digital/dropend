@@ -145,8 +145,8 @@ p {
 
 .hero-form,
 .footer-form {
-    .et-pb-contact-message{
-        color: #ffffff;
+    .et-pb-contact-message > *{
+        color: #ffffff !important;
     }
 }
 
