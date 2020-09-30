@@ -123,6 +123,10 @@ p b.dark {
   }
 }
 
+#footer-info p {
+  text-align: center;
+}
+
 /* FORMS*/
 /*add labels above the form input fields*/
 .et_pb_contact_form label.et_pb_contact_form_label {
