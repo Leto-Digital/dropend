@@ -108,9 +108,20 @@ p b.dark {
   #footer-widgets .footer-widget:nth-child(3) {
     margin-bottom: 3.5% !important;
   }
+  #footer-widgets .footer-widget:nth-child(2) {
+    margin-bottom: 0 !important;
+  }
 }
 
 @media screen and (min-width: 981px) {
+  #footer-widgets .footer-widget:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   #footer-widgets .footer-widget:nth-child(3) {
     display: -webkit-box;
     display: -ms-flexbox;
